@@ -114,6 +114,30 @@ color: #FFFFFF;
   font-size: 20px;
 }
 
+.btn-add-roomie {
+  cursor: pointer;
+  position: absolute;
+  z-index: 1000;
+  top: 60px;
+  right: 40px;
+  background-image: linear-gradient(-45deg, #FF5722 0%, #F57C00 100%);
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.20);
+  min-width: 56px;
+  width: 56px;
+  height: 56px;
+  padding: 17px 18px;
+  border-radius: 28px;
+}
+
+.btn-add-roomie:hover{
+  background: #ffa243;
+}
+
+.btn-add-roomie .glyphicon {
+  color: #FFF;
+  font-size: 20px;
+}
+
 .filter-services{
   cursor: pointer;
   color: #FFF;
